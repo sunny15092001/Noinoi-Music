@@ -36,6 +36,23 @@ ALIVE_IMG = getenv("ALIVE_IMG", "https://telegra.ph/file/88b954d019f1879737575.j
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "60"))
 UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Baziibro/NoinoiMusicBot")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
+HEROKU_API_KEY = getenv("HEROKU_API_KEY")
+HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
+
+if str(getenv("STRING_SESSION1")).strip() == "":
+    STRING1 = str(None)
+else:
+    STRING1 = str(getenv("STRING_SESSION1"))
+
+if str(getenv("STRING_SESSION2")).strip() == "":
+    STRING2 = str(None)
+else:
+    STRING2 = str(getenv("STRING_SESSION2"))
+
+if str(getenv("STRING_SESSION3")).strip() == "":
+    STRING3 = str(None)
+else:
+    STRING3 = str(getenv("STRING_SESSION3"))
 
 if str(getenv("LOG_SESSION")).strip() == "":
     LOG_SESSION = str(None)
