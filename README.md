@@ -1,7 +1,7 @@
 #      <p align="center">𝑵𝒐𝒊𝒏𝒐𝒊 𝑴𝒖𝒔𝒊𝒄 𝑩𝒐𝒕 -𝑪𝑭𝑪 𝑩𝒐𝒕𝒔  </a></p>
 <p align="center">
 
-<p align="center"><a href="https://t.me/noinoi_bot"><img src="https://telegra.ph/file/842f2023edaf5b6f726d9.jpg"></a></p>
+<p align="center"><a href="https://t.me/noinoi_bot"><img src="https://telegra.ph/file/35fb0b861cf3c93a02e47.jpg"></a></p>
 <p align="center">
     
 
@@ -40,6 +40,8 @@
 | `/leaveall` | order the userbot to leave from all group (sudo only) |
 | `/restart` | restart your bot directly without leaving telegram (sudo only) |
 | `/clean` | clean all raw files |
+| `/gstats` | for gettings systtem stats |
+
 | `/rmd` | clean all downloaded files |
 
 
