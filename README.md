@@ -41,7 +41,6 @@
 | `/restart` | restart your bot directly without leaving telegram (sudo only) |
 | `/clean` | clean all raw files |
 | `/gstats` | for gettings systtem stats |
-
 | `/rmd` | clean all downloaded files |
 
 
