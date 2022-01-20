@@ -12,6 +12,7 @@
 
 
 ## ✨ Features
+- Multi color thumbnail
 - Music support
 - MultiChat support
 - Playlist & Queue support
