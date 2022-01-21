@@ -15,7 +15,7 @@ from pyrogram.errors import UserAlreadyParticipant, UserNotParticipant
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from pytgcalls import StreamType
 from pytgcalls.types.input_stream import AudioPiped
-from youtubesearchpython import
+from youtubesearchpython import VideosSearch
 
 
 def ytsearch(query: str):
