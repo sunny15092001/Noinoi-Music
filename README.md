@@ -60,7 +60,7 @@ pip3 install -U pip
 curl -sL https://deb.nodesource.com/setup_16.x | bash -
 sudo apt-get install -y nodejs
 npm i -g npm
-git clone https://github.com/BAZIIBRO/NoinoiMusic # clone the repo.
+git clone https://github.com/hyko-xd/Noinoi-Music # clone the repo.
 cd video-stream
 pip3 install -U -r requirements.txt
 cp example.env .env # use vim to edit ENVs
