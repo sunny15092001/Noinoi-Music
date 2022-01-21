@@ -138,12 +138,6 @@ async def new_chat(c: Client, m: Message):
                             InlineKeyboardButton("📣 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"),
                             InlineKeyboardButton("💭 ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{GROUP_SUPPORT}")
                         ],
-                        [
-                            InlineKeyboardButton("👤 ᴀꜱꜱɪꜱᴛᴀɴᴛ", url=f"https://t.me/{ass_uname}")
-                        ]
-                        [
-                            InlineKeyboardButton("📚 ᴄᴏᴍᴍᴀɴᴅꜱ", callback_data="cbcmds")
-                        ]
                     ]
                 )
             )
