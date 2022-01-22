@@ -1,9 +1,9 @@
 # Copyright (C) 2021 By VeezMusicProject
 
-from driver.queues import QUEUE
+from Noinoi.DREAMS.queues import QUEUE
 from pyrogram import Client, filters
 from pyrogram.types import CallbackQuery, InlineKeyboardButton, InlineKeyboardMarkup
-from config import (
+from Noinoi.config import (
     ASSISTANT_NAME,
     BOT_NAME,
     BOT_USERNAME,
