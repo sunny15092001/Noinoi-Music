@@ -28,3 +28,4 @@ COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! .").split())
 ALIVE_IMG = getenv("ALIVE_IMG", "https://telegra.ph/file/88b954d019f1879737575.jpg")
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "60"))
 UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Baziibro/NoinoiMusicBot")
+DATABASE_URL = os.environ.get("DATABASE_URL")  # fill with your mongodb url
