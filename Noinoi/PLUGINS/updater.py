@@ -7,12 +7,12 @@ from asyncio import sleep
 
 from git import Repo
 from pyrogram.types import Message
-from driver.filters import command
+from Noinoi.DREAMS.filters import command
 from pyrogram import Client, filters
 from os import system, execle, environ
-from driver.decorators import sudo_users_only
+from Noinoi.DREAMS.decorators import sudo_users_only
 from git.exc import InvalidGitRepositoryError
-from config import UPSTREAM_REPO, BOT_USERNAME
+from Noinoi.config import UPSTREAM_REPO, BOT_USERNAME
 
 
 def gen_chlog(repo, diff):
@@ -64,7 +64,7 @@ async def update_repo(_, message: Message):
         system("git pull -f && pip3 install -r requirements.txt")
         execle(sys.executable, sys.executable, "main.py", environ)
         return
-    await msg.edit("bot is **up-to-date** with [main](https://github.com/levina-lab/video-stream/tree/main)", disable_web_page_preview=True)
+    await msg.edit("bot is **up-to-date** with [main](https://github.com/Hyko-xd/Noinoi-Music/tree/main)", disable_web_page_preview=True)
 
 
 @Client.on_message(command(["restart", f"restart@{BOT_USERNAME}"]) & ~filters.edited)
