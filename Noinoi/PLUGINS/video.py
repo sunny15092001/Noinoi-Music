@@ -5,12 +5,12 @@
 import re
 import asyncio
 
-from config import ASSISTANT_NAME, BOT_USERNAME, IMG_1, IMG_2
-from driver.design.thumbnail import thumb
-from driver.design.chatname import CHAT_TITLE
-from driver.filters import command, other_filters
-from driver.queues import QUEUE, add_to_queue
-from driver.veez import call_py, user
+from Noinoi.config import ASSISTANT_NAME, BOT_USERNAME, IMG_1, IMG_2
+from Noinoi.OTHERS.design.thumbnail import thumb
+from Noinoi.OTHERS.design.chatname import CHAT_TITLE
+from Noinoi.DREAMS.filters import command, other_filters
+from Noinoi.DREAMS.queues import QUEUE, add_to_queue
+from Noinoi.DREAMS.cfc import call_py, user
 from pyrogram import Client
 from pyrogram.errors import UserAlreadyParticipant, UserNotParticipant
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
@@ -64,9 +64,13 @@ async def vplay(c: Client, m: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton(text="• Mᴇɴᴜ", callback_data="cbmenu"),
-                InlineKeyboardButton(text="• Cʟᴏsᴇ", callback_data="cls"),
-            ]
+                    InlineKeyboardButton(
+                        "✨ Support", url=f"https://t.me/{GROUP_SUPPORT}"
+                    ),
+                    InlineKeyboardButton(
+                        "📣 Updates", url=f"https://t.me/{UPDATES_CHANNEL}"
+                    ),
+                ]
         ]
     )
     if m.sender_chat:
@@ -170,7 +174,7 @@ async def vplay(c: Client, m: Message):
                     amaze = MediumQualityVideo()
                 elif Q == 360:
                     amaze = LowQualityVideo()
-                await loser.edit("🔄 **Joining vc...**")
+                await loser.edit("🔄 **Conecting to vc...**")
                 await call_py.join_group_call(
                     chat_id,
                     AudioVideoPiped(
@@ -228,7 +232,7 @@ async def vplay(c: Client, m: Message):
                             )
                         else:
                             try:
-                                await loser.edit("🔄 **Joining vc...**")
+                                await loser.edit("🔄 **Conecting to vc...**")
                                 await call_py.join_group_call(
                                     chat_id,
                                     AudioVideoPiped(
@@ -290,7 +294,7 @@ async def vplay(c: Client, m: Message):
                         )
                     else:
                         try:
-                            await loser.edit("🔄 **Joining vc...**")
+                            await loser.edit("🔄 **Conecting to vc...**")
                             await call_py.join_group_call(
                                 chat_id,
                                 AudioVideoPiped(
@@ -319,10 +323,14 @@ async def vstream(c: Client, m: Message):
     chat_id = m.chat.id
     keyboard = InlineKeyboardMarkup(
         [
-            [
-                InlineKeyboardButton(text="• Mᴇɴᴜ", callback_data="cbmenu"),
-                InlineKeyboardButton(text="• Cʟᴏsᴇ", callback_data="cls"),
-            ]
+                [
+                    InlineKeyboardButton(
+                        "✨ Support", url=f"https://t.me/{GROUP_SUPPORT}"
+                    ),
+                    InlineKeyboardButton(
+                        "📣 Updates", url=f"https://t.me/{UPDATES_CHANNEL}"
+                    ),
+                ]
         ]
     )
     if m.sender_chat:
@@ -436,7 +444,7 @@ async def vstream(c: Client, m: Message):
                 elif Q == 360:
                     amaze = LowQualityVideo()
                 try:
-                    await loser.edit("🔄 **Joining vc...**")
+                    await loser.edit("🔄 **Conecting to vc...**")
                     await call_py.join_group_call(
                         chat_id,
                         AudioVideoPiped(
