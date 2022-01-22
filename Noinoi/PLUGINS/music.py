@@ -9,7 +9,7 @@ from Noinoi.OTHERS.design.chatname import CHAT_TITLE
 from Noinoi.DREAMS.filters import command, other_filters
 from Noinoi.DREAMS.queues import QUEUE, add_to_queue
 from Noinoi.DREAMS.cfc import call_py, user
-from driver.utils import bash
+from Noinoi.DREAMS.utils import bash
 from pyrogram import Client
 from pyrogram.errors import UserAlreadyParticipant, UserNotParticipant
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
