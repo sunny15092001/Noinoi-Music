@@ -1,5 +1,4 @@
-# Copyright (C) 2021 By Veez Music-Project
-
+# NOINOI MUSIC BOT
 from __future__ import unicode_literals
 
 import asyncio
@@ -20,9 +19,9 @@ from pyrogram.types import Message
 from youtube_search import YoutubeSearch
 from yt_dlp import YoutubeDL
 
-from config import BOT_USERNAME as bn
-from driver.decorators import humanbytes
-from driver.filters import command, other_filters
+from Noinoi.config import BOT_USERNAME as bn
+from Noinoi.DREAMS.decorators import humanbytes
+from Noinoi.DREAMS.filters import command, other_filters
 
 
 ydl_opts = {
