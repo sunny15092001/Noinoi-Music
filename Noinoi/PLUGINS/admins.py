@@ -1,4 +1,4 @@
-from cache.admins import admins
+from Noinoi.OTHERS.cache.admins import admins
 from Noinoi.DREAMS.cfc import call_py
 from pyrogram import Client, filters
 from Noinoi.DREAMS.decorators import authorized_users_only
