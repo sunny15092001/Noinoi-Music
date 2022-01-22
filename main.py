@@ -1,6 +1,6 @@
 import asyncio
 from pytgcalls import idle
-from driver.veez import call_py, bot
+from Noinoi.DREAMS.cfc import call_py, bot
 
 async def start_bot():
     await bot.start()
