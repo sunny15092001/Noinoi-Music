@@ -1,10 +1,9 @@
-# Copyright (C) 2021 By VeezMusicProject
-
+# noinoi music bot
 import os
 from pyrogram import Client, filters
 from pyrogram.types import Message
-from driver.filters import command, other_filters
-from driver.decorators import sudo_users_only, errors
+from Noinoi.DREAMS.filters import command, other_filters
+from Noinoi.DREAMS.decorators import sudo_users_only, errors
 
 downloads = os.path.realpath("program/downloads")
 raw = os.path.realpath(".")
