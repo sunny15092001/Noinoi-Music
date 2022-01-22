@@ -2,7 +2,7 @@ from datetime import datetime
 from sys import version_info
 from time import time
 
-from config import (
+from Noinoi.config import (
     ALIVE_IMG,
     ALIVE_NAME,
     BOT_NAME,
@@ -11,11 +11,11 @@ from config import (
     OWNER_NAME,
     UPDATES_CHANNEL,
 )
-from program import __version__
-from driver.veez import user
-from driver.filters import command, other_filters
+from Noinoi. import __version__
+from Noinoi.cfc import user
+from Noinoi.DREAMS.filters import command, other_filters
 from pyrogram import Client, filters
-from pyrogram import __version__ as pyrover
+from Noinoi import __version__ as pyrover
 from pytgcalls import (__version__ as pytover)
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
