@@ -1,7 +1,7 @@
 #      <p align="center">𝑵𝒐𝒊𝒏𝒐𝒊 𝑴𝒖𝒔𝒊𝒄 𝑩𝒐𝒕 -𝑪𝑭𝑪 𝑩𝒐𝒕𝒔  </a></p>
 <p align="center">
 
-<p align="center"><a href="https://t.me/noinoi_bot"><img src="https://telegra.ph/file/35fb0b861cf3c93a02e47.jpg"></a></p>
+<p align="center"><a href="https://t.me/kkttmm26_bot"><img src="https://telegra.ph/file/35fb0b861cf3c93a02e47.jpg"></a></p>
 <p align="center">
     
 
@@ -79,4 +79,4 @@ python3 main.py # run the bot.
 - [Dan](https://github.com/delivrance) for [``Pyrogram``](https://github.com/pyrogram)
 
 ### Support & Updates 🎑
-<a href="https://t.me/CFC_BOT_SUPPORT"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/BAZIGARXD"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/EnglishHindi_Chatting_Group"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/ganda_pipul"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
